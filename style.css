@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+
+
+header{
+    background-color: #252525;
+    font-family: 'Roboto Serif', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 10vh;
+
+} 
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25%;
+
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   /* border: solid blueviolet;*/
+    width: 20%;
+}
+
+.redes img{
+    height: 5vh;
+}
+
+
+.pata{
+    height: 8vh;
+}
+    
+h1{
+    color: #ffffff
+    ;
+}    
+    
+
+
+.primeiro{
+    background-image: url(Web/Grupo\ 486.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.primeiro div{
+    position: relative  ;
+    bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+}
+
+.text1{ 
+    color: white;
+    width: 37vw;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Roboto Serif', serif;
+    
+
+}
+
+
+
+.segundo{
+    background-image: url(Web/Interseção\ 16.png);
+    height: 100vh;
+    display: flex;
+}
+
+.segundo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 4rem;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    border: solid red;
+
+}
+.text2{
+    font-size: 3rem;
+    color: #3A342F;
+    border: solid blue;
+}
+.text3{
+    font-size: 1.5rem;
+    color: #3A342F;
+    text-align: center;
+    border: solid pink;
+}
+
+.terceiro{
+    background-image: url(Web/Grupo\ 480.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 150vh;
+}
+
+.apoio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+}
+
+footer{
+    background-color: #EB4A7B;
+    
+}
+
+.rodape{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
